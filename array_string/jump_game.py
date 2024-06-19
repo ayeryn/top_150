@@ -2,21 +2,16 @@
 
 
 def jump_game(nums: list[int]) -> bool:
-    # TODO:
-    return False
+    dp = [False] * len(nums)
+    dp[0] = True
 
-
-def jump_game_brute(nums: list[int]) -> bool:
-    n = len(nums)
-    reach = [False] * n
-    reach[0] = True
-
-    # Find all reachable indexes
-    # Exclude last index as it's the destination
-    for i in range(n - 1):
-        if reach[i]:
-            for j in range(1, min(nums[i] + 1, n - i)):
-                # This loop could be super large
-                reach[min(i + j, n - 1)] = True
-
-    return reach[-1]
+    for i in range(0, len(nums) - 1):  # O(n)
+        # Note that if n[i] == True then all(n[0:i]) == True
+        if dp[i]:
+            if i + nums[i] >= len(nums) - 1:
+                return True
+            dp[i + 1 : i + nums[i] + 1] = [True] * nums[i]  # O(nums[i])
+        else:
+            # If False appears before endloop, we cannot reach any later indexes
+            return False
+    return dp[-1]

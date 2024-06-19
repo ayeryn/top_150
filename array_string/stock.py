@@ -1,11 +1,19 @@
 # 121
 def stock(prices: list[int]) -> int:
-    left, right = 0, len(prices) - 1
+    left, right = 0, 1
     ans = 0
 
-    while left <= right:
-        # TODO
-        pass
+    while right < len(prices):  # left <= right will always hold true
+        curr = prices[right] - prices[left]
+
+        if curr < 0:
+            # left is too large, move on
+            left += 1
+        else:
+            # left is small, keep searching for a larger right
+            # left == right will come here thus moving right forward
+            right += 1
+            ans = max(ans, curr)
 
     return ans
 
@@ -49,12 +57,6 @@ def stock_dp(prices):
 
 
 prices = [7, 1, 5, 3, 6, 4]  # 5
-"""
-l = 7, r = 4
-l = 1, r = 4
-l = 1, r = 6
-l = 
-"""
 print(stock(prices))
 print(stock_prefix(prices))
 print(stock_dp(prices))
@@ -64,7 +66,8 @@ prices = [2, 1, 4]  # 3
 print(stock(prices))
 print(stock_prefix(prices))
 print(stock_dp(prices))
-"""
-l = 2, r = 4
-l = 1, r = 4 -> 3
-"""
+
+prices = [1, 2, 4, 2, 5, 7, 2, 4, 9, 0, 9]  # 9
+print(stock(prices))
+print(stock_prefix(prices))
+print(stock_dp(prices))

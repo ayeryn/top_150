@@ -1,7 +1,7 @@
 # 55
 
 
-def jump_game(nums: list[int]) -> bool:
+def jump_game_dp(nums: list[int]) -> bool:
     dp = [False] * len(nums)
     dp[0] = True
 
@@ -15,3 +15,19 @@ def jump_game(nums: list[int]) -> bool:
             # If False appears before endloop, we cannot reach any later indexes
             return False
     return dp[-1]
+
+
+def jump_game_greedy(nums):
+    goal = len(nums) - 1
+
+    while goal > 0:
+        i = goal - 1
+        while i >= 0 and i + nums[i] < goal:
+            # find a previous position that could reach current goal
+            i -= 1
+
+        # update goal
+        # if no index can reach goal, goal would be -1 and exit the loop
+        goal = i
+
+    return goal == 0

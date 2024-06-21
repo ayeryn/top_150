@@ -1,6 +1,12 @@
 # 45
 
 
+def jump_greedy(nums):
+    # TODO: implement
+
+    pass
+
+
 def jump_brute(nums: list[int]) -> int:
     n = len(nums)
     dp = [float("inf")] * n

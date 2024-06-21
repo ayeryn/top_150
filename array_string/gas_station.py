@@ -1,28 +1,27 @@
 def gas_station(gas, cost):
-    prefix = []
-    p_sum = 0
+    """
+    We are calculating "prefix" and checking validity in one pass.
+    - Still O(n) but O(1) memory
+
+    Think about the starting index as a pivot.
+    - Total distance traveled must be >= 0 to progress
+    - When total becomes negative, we know the answer is a later index, and distance_traveled becomes distance_left_to_travel
+    """
     n = len(gas)
-
+    left = 0  # distance left to travel
+    total = 0  # distance traveled
+    start = 0  # starting index
     for i in range(n):
-        distance = gas[i] - cost[i]
-        prefix.append(distance)
-        p_sum += distance
-
-    if p_sum < 0:
-        return -1
-
-    left = 0
-    total = 0
-    start = 0
-    for i in range(n):
-        total += prefix[i]
+        distance = gas[i] - cost[i]  # distance at current index
+        total += distance  # update total distance traveled
 
         if total < 0:
+            # cannot progress, convert distance_traveled to left_to_travel
             left += total
-            total = 0
-            start = i + 1
+            total = 0  # reset total
+            start = i + 1  # update pivot
 
-    return start
+    return -1 if left + total < 0 else start
 
 
 def gas_station_brute(gas: list[int], cost: list[int]) -> int:

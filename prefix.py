@@ -15,3 +15,16 @@ def prefix_brute(strs: list[str]) -> str:
             return pre[:pi]
 
     return pre[:pi]
+
+
+def prefix(strs):
+    word = strs[0]
+    ans = ""
+    for i in range(len(word)):
+        for s in strs:
+            # Deal with length in the loop
+            if len(s) == i or s[: i + 1] != word[: i + 1]:
+                return ans
+        ans = word[: i + 1]
+
+    return ans

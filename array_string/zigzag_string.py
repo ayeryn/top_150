@@ -1,7 +1,33 @@
 # 6
 
 
-def zigzag_string(s: str, rows: int) -> str:
+def zigzag_string(s, rows):  # without using a mtx and join
+    if rows == 1:
+        return s
+
+    n = len(s)
+    mod = rows * 2 - 2
+    ans = ""
+
+    for i in range(0, len(s), mod):  # first row
+        ans += s[i]
+
+    for i in range(1, rows - 1):  # middle rows
+        temp = mod - 2 * i
+        for j in range(0, len(s), mod):
+            if i + j < n:
+                ans += s[i + j]
+            if i + j + temp < n and temp:
+                ans += s[i + j + temp]
+
+    for i in range(0, len(s), mod):  # last row
+        if i + rows - 1 < n:
+            ans += s[i + rows - 1]
+
+    return ans
+
+
+def zigzag_string_mtx(s: str, rows: int) -> str:
     if rows == 1:
         return s
 

@@ -11,10 +11,14 @@ def concat_string(s: str, words: list[str]) -> list[int]:
         count[word] += 1
 
     for right in range(len(s) - n + 1):
+        if s[right : right + w] not in count:
+            continue
+
         curr = s[right : right + n]  # grab possible substring and do checks
         d = defaultdict(int)  # counter for substring
         for i in range(0, len(curr), w):
             d[curr[i : i + w]] += 1
         if d == count:  # found a solution
             ans.append(right)
+
     return ans

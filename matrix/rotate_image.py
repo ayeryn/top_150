@@ -15,15 +15,19 @@ def rotate_image(matrix: list[list[int]]) -> None:
             top_left = matrix[top][l + pos]
 
             # move bottom left to top left
+            # another pos RIGHT
             matrix[top][l + pos] = matrix[bottom - pos][l]
 
             # move bottom right to bottom left
+            # another pos UP
             matrix[bottom - pos][l] = matrix[bottom][r - pos]
 
             # move top right to bottom right
+            # another pos LEFT
             matrix[bottom][r - pos] = matrix[top + pos][r]
 
             # move top_left to top right
+            # another pos DOWN
             matrix[top + pos][r] = top_left
 
         l += 1

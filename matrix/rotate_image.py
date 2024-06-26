@@ -10,6 +10,9 @@ def rotate_image(matrix: list[list[int]]) -> None:
 
     while l < r:
         for pos in range(r - l):
+            """
+            Note that j becomes new_i
+            """
             i, j = l, l + pos
             curr = matrix[i][j]
 
@@ -17,24 +20,28 @@ def rotate_image(matrix: list[list[int]]) -> None:
             i, j = l + pos, r
             temp = matrix[i][j]
             matrix[i][j] = curr
+            # print(f"({i}, {j}): {temp} => {curr}")
             curr = temp
 
             # right to down
             i, j = r, r - pos
             temp = matrix[i][j]
             matrix[i][j] = curr
+            # print(f"({i}, {j}): {temp} => {curr}")
             curr = temp
 
             # down to left
             i, j = r - pos, l
             temp = matrix[i][j]
             matrix[i][j] = curr
+            # print(f"({i}, {j}): {temp} => {curr}")
             curr = temp
 
             # left to up
             i, j = l, l + pos
             temp = matrix[i][j]
             matrix[i][j] = curr
+            # print(f"({i}, {j}): {temp} => {curr}")
             curr = temp
 
         l += 1

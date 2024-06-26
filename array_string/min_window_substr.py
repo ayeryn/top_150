@@ -2,7 +2,7 @@
 from collections import defaultdict
 
 
-def min_window_substr(s: str, t: str) -> str:
+def min_window_substr_brute(s: str, t: str) -> str:
     if s == t:
         return s
     if len(s) < len(t):
@@ -15,20 +15,16 @@ def min_window_substr(s: str, t: str) -> str:
         count[c] += 1
     d = defaultdict(int)
 
+    def is_ans():
+        return all([count[key] <= d[key] for key in count])
+
     for right in range(len(s)):
         if s[right] in count:
             d[s[right]] += 1
 
-        while count == d:
-            # FIXME: count of a char c might exceed count[c]
+        while is_ans():
             if ans == "" or len(ans) > (right - left + 1):
                 ans = s[left : right + 1]
-            if s[left] in count:
-                d[s[left]] -= 1
-            left += 1
-
-        while s[right] in count and d[s[right]] > count[s[right]]:
-            # FIXME: incorrectly shortens substr
             if s[left] in count:
                 d[s[left]] -= 1
             left += 1

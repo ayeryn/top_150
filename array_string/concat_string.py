@@ -11,6 +11,7 @@ def concat_string(s: str, words: list[str]) -> list[int]:
         count[word] += 1
 
     for right in range(len(s) - n + 1):
+        # TODO: optimize with has variable??
         if s[right : right + w] not in count:
             continue
 

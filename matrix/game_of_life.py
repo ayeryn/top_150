@@ -2,7 +2,35 @@ def game(board: list[list[int]]) -> None:
     """
     Do not return anything, modify board in-place instead.
     """
-    pass
+    nbs = [(-1, -1), (-1, 0), (-1, 1), (0, -1), (0, 1), (1, -1), (1, 0), (1, 1)]
+
+    m, n = len(board), len(board[0])
+
+    def valid(x, y):
+        return 0 <= x < m and 0 <= y < n
+
+    cache = {}  # cache changed cells
+
+    for i in range(m):
+        for j in range(n):
+            live = board[i][j]
+            cache[(i, j)] = live
+            count = 0
+            for nb in nbs:
+                x, y = i + nb[0], j + nb[1]
+                if valid(x, y):
+                    if (x, y) in cache:
+                        count += cache[(x, y)]
+                    else:
+                        count += board[x][y]
+            if count < 2:
+                board[i][j] = 0
+            elif 2 <= count <= 3 and live:
+                board[i][j] = 1
+            elif count > 3 and live:
+                board[i][j] = 0
+            elif count == 3 and not live:
+                board[i][j] = 1
 
 
 def game_mem(board):

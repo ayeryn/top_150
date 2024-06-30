@@ -2,13 +2,11 @@ def group_anagram(strs: list[str]) -> list[list[str]]:
     d = {}
 
     def count_chars(s):  # count char and return counter as tuple
-        count = {}
+        count = [0] * 26
         for i in range(0, 27):
-            count[chr(ord("a") + i)] = 0
-        for c in s:
-            count[c] += 1
+            count[ord(c) - ord("a")] += 1
 
-        return tuple(count.items())
+        return tuple(count)
 
     for s in strs:
         c = count_chars(s)

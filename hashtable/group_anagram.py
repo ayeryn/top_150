@@ -1,3 +1,6 @@
+# 49
+
+
 def group_anagram(strs: list[str]) -> list[list[str]]:
     d = {}
 

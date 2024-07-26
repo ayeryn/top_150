@@ -10,7 +10,7 @@ def LCA(root: "TreeNode", p: "TreeNode", q: "TreeNode") -> "TreeNode":
     """
     2 scenarios:
     1. diff tree
-    2. same tree - whichever comes first
+    2. same tree - whichever comes first (by nature of recursion)
     """
     if root.val == p.val or root.val == q.val:
         # return once we find p or q

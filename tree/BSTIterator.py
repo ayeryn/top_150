@@ -7,22 +7,21 @@ class BSTIterator:
 
     def __init__(self, root: TreeNode):
         self.root = root
-        self.nodes = []
-        curr = self.root
-        self.dfs(curr)
-        self.next_ind = -1
+        self.stack = [root]
+        self.dfs()  # Traverse as we go
 
-    def dfs(self, node):  # O(N)
-        if not node:
-            return
+    def dfs(self):  # O(H)
+        while self.stack[-1].left:
+            # Get the leftmost path to get smallest element
+            self.stack.append(self.stack[-1].left)
 
-        self.dfs(node.left)
-        self.nodes.append(node.val)
-        self.dfs(node.right)
-
-    def next(self) -> int:
-        self.next_ind += 1
-        return self.nodes[self.next_ind]
+    def next(self) -> int:  # Avg. O(1)
+        ret = self.stack.pop()
+        if ret.right:
+            # traverse down right child
+            self.stack.append(ret.right)
+            self.dfs()
+        return ret.val
 
     def hasNext(self) -> bool:
-        return self.next_ind < len(self.nodes) - 1
+        return len(self.stack) > 1

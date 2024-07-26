@@ -47,6 +47,7 @@
 | Difficulty | Problem | Algo/DS |
 |------------|----------|--------|
 | Easy       | [BST min difference][1] | BST, DFS |
+| Easy       | [Inorder traversal][3] | Iterative DFS |
 | Medium     | [BST Iterator][2] |  BST, DFS |
 | Medium     | [][] |   |
 | Medium     | [][] |   |
@@ -55,3 +56,4 @@
 
 [1]: https://leetcode.com/problems/minimum-absolute-difference-in-bst/submissions/1334140637/?envType=study-plan-v2&envId=top-interview-150
 [2]: https://leetcode.com/problems/binary-search-tree-iterator/submissions/1334244516/?envType=study-plan-v2&envId=top-interview-150
+[3]: https://leetcode.com/problems/binary-tree-inorder-traversal/

@@ -5,7 +5,12 @@ from collections import deque
 from TreeNode import TreeNode
 
 
-def count_nodes(root: Optional[TreeNode]) -> int:
+def count_nodes(root):
+    # TODO: less than O(N) runtime
+    pass
+
+
+def count_nodes_n(root: Optional[TreeNode]) -> int:
     """
     Always terminate one level early
     Gets closer to O(N) as N grows larger

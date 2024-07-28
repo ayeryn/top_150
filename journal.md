@@ -60,13 +60,14 @@
 | Difficulty | Problem | Algo/DS |
 |------------|----------|--------|
 | Easy       | [Palindrome number][1] | Math |
-| Medium     | [][] |   |
+| Medium     | [Clone graph][2] | Graph traversal |
 | Medium     | [][] |   |
 | Medium     | [][] |   |
 | Hard       | [][] |   |
 | Hard       | [][] |   |
 
 [1]: https://leetcode.com/problems/palindrome-number/?envType=study-plan-v2&envId=top-interview-150
+[2]: https://leetcode.com/problems/clone-graph/submissions/1336680681/?envType=study-plan-v2&envId=top-interview-150
 
 ## Template
 | Difficulty | Problem | Algo/DS |

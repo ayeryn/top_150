@@ -5,6 +5,7 @@
     - [7/25](#725)
     - [7/26](#726)
     - [7/27](#727)
+    - [7/28](#728)
   - [Template](#template)
 
 ## Principle
@@ -51,15 +52,21 @@
 ### 7/27
 | Difficulty | Problem | Algo/DS |
 |------------|----------|--------|
-| Easy       | [][] |   |
-| Medium     | [Islands][2] | Graph |
+| Medium     | [Islands][1] | Graph |
+
+[1]: https://leetcode.com/problems/number-of-islands/?envType=study-plan-v2&envId=top-interview-150
+
+### 7/28
+| Difficulty | Problem | Algo/DS |
+|------------|----------|--------|
+| Easy       | [Palindrome number][1] | Math |
+| Medium     | [][] |   |
 | Medium     | [][] |   |
 | Medium     | [][] |   |
 | Hard       | [][] |   |
 | Hard       | [][] |   |
 
-[1]:
-[2]: https://leetcode.com/problems/number-of-islands/?envType=study-plan-v2&envId=top-interview-150
+[1]: https://leetcode.com/problems/palindrome-number/?envType=study-plan-v2&envId=top-interview-150
 
 ## Template
 | Difficulty | Problem | Algo/DS |

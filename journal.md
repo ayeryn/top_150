@@ -74,13 +74,14 @@
 | Difficulty | Problem | Algo/DS |
 |------------|----------|--------|
 | Easy       | [][] |   |
-| Medium     | [][] |   |
+| Medium     | [Simplify path][2] | Stack |
 | Medium     | [][] |   |
 | Medium     | [][] |   |
 | Hard       | [Binary tree max path sum][1] | Tree, DFS |
 | Hard       | [][] |   |
 
 [1]: https://leetcode.com/problems/binary-tree-maximum-path-sum/?envType=study-plan-v2&envId=top-interview-150
+[2]: https://leetcode.com/problems/simplify-path/?envType=study-plan-v2&envId=top-interview-150
 
 ## Template
 | Difficulty | Problem | Algo/DS |

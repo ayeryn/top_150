@@ -61,13 +61,13 @@
 |------------|----------|--------|
 | Easy       | [Palindrome number][1] | Math |
 | Medium     | [Clone graph][2] | Graph traversal |
-| Medium     | [][] |   |
-| Medium     | [][] |   |
-| Hard       | [][] |   |
-| Hard       | [][] |   |
+| Medium     | [Binary tree level traversal][3] | BFS |
+| Medium     | [Combinations][4] | Backtracking |
 
 [1]: https://leetcode.com/problems/palindrome-number/?envType=study-plan-v2&envId=top-interview-150
 [2]: https://leetcode.com/problems/clone-graph/submissions/1336680681/?envType=study-plan-v2&envId=top-interview-150
+[3]: https://leetcode.com/problems/binary-tree-level-order-traversal/?envType=study-plan-v2&envId=top-interview-150
+[4]: https://leetcode.com/problems/combinations/?envType=study-plan-v2&envId=top-interview-150
 
 ## Template
 | Difficulty | Problem | Algo/DS |

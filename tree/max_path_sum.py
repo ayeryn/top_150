@@ -1,12 +1,10 @@
 # 124
 
 
-from functools import cache
 from TreeNode import TreeNode
 
 
 def max_path_sum(root: "TreeNode") -> int:
-    @cache
     def dfs(node):
         """
         Returns: (int, int) indicating split_sum and nosplit_sum

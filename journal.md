@@ -76,13 +76,14 @@
 | Easy       | [][] |   |
 | Medium     | [Simplify path][2] | Stack |
 | Medium     | [Kth smallest][3] |   |
-| Medium     | [][] |   |
+| Medium     | [Permutation][4] | Backtracking, permutation  |
 | Hard       | [Binary tree max path sum][1] | Tree, DFS |
 | Hard       | [][] |   |
 
 [1]: https://leetcode.com/problems/binary-tree-maximum-path-sum/?envType=study-plan-v2&envId=top-interview-150
 [2]: https://leetcode.com/problems/simplify-path/?envType=study-plan-v2&envId=top-interview-150
 [3]:https://leetcode.com/problems/kth-smallest-element-in-a-bst/?envType=study-plan-v2&envId=top-interview-150
+[4]: https://leetcode.com/problems/permutations/?envType=study-plan-v2&envId=top-interview-150
 
 ## Template
 | Difficulty | Problem | Algo/DS |

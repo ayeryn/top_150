@@ -6,6 +6,7 @@
     - [7/26](#726)
     - [7/27](#727)
     - [7/28](#728)
+    - [7/29](#729)
   - [Template](#template)
 
 ## Principle
@@ -68,6 +69,18 @@
 [2]: https://leetcode.com/problems/clone-graph/submissions/1336680681/?envType=study-plan-v2&envId=top-interview-150
 [3]: https://leetcode.com/problems/binary-tree-level-order-traversal/?envType=study-plan-v2&envId=top-interview-150
 [4]: https://leetcode.com/problems/combinations/?envType=study-plan-v2&envId=top-interview-150
+
+### 7/29
+| Difficulty | Problem | Algo/DS |
+|------------|----------|--------|
+| Easy       | [][] |   |
+| Medium     | [][] |   |
+| Medium     | [][] |   |
+| Medium     | [][] |   |
+| Hard       | [Binary tree max path sum][1] | Tree, DFS |
+| Hard       | [][] |   |
+
+[1]: https://leetcode.com/problems/binary-tree-maximum-path-sum/?envType=study-plan-v2&envId=top-interview-150
 
 ## Template
 | Difficulty | Problem | Algo/DS |

@@ -73,9 +73,9 @@
 ### 7/29
 | Difficulty | Problem | Algo/DS |
 |------------|----------|--------|
-| Easy       | [Find insert position][5] |   |
+| Easy       | [Find insert position][5] | Binary Search |
 | Medium     | [Simplify path][2] | Stack |
-| Medium     | [Kth smallest][3] |   |
+| Medium     | [Kth smallest][3] | BST |
 | Medium     | [Permutation][4] | Backtracking, permutation  |
 | Hard       | [Binary tree max path sum][1] | Tree, DFS |
 | Hard       | [IPO][6] | Heap |

@@ -91,7 +91,7 @@
 ### 7/30
 | Difficulty | Problem | Algo/DS |
 |------------|----------|--------|
-| Easy       | [][] |   |
+| Easy       | [Convert sorted array to BST][2] | D&C |
 | Medium     | [Snakes and ladders][1] | Graph BFS |
 | Medium     | [][] |   |
 | Medium     | [][] |   |
@@ -99,6 +99,7 @@
 | Hard       | [][] |   |
 
 [1]: https://leetcode.com/problems/snakes-and-ladders/description/?envType=study-plan-v2&envId=top-interview-150
+[2]: https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/submissions/1338890749/?envType=study-plan-v2&envId=top-interview-150
 
 
 ## Template

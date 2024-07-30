@@ -7,6 +7,7 @@
     - [7/27](#727)
     - [7/28](#728)
     - [7/29](#729)
+    - [7/30](#730)
   - [Template](#template)
 
 ## Principle
@@ -86,6 +87,19 @@
 [4]: https://leetcode.com/problems/permutations/?envType=study-plan-v2&envId=top-interview-150
 [5]: https://leetcode.com/problems/search-insert-position/?envType=study-plan-v2&envId=top-interview-150
 [6]: https://leetcode.com/problems/ipo/?envType=study-plan-v2&envId=top-interview-150
+
+### 7/30
+| Difficulty | Problem | Algo/DS |
+|------------|----------|--------|
+| Easy       | [][] |   |
+| Medium     | [Snakes and ladders][1] | Graph BFS |
+| Medium     | [][] |   |
+| Medium     | [][] |   |
+| Hard       | [][] |   |
+| Hard       | [][] |   |
+
+[1]: https://leetcode.com/problems/snakes-and-ladders/description/?envType=study-plan-v2&envId=top-interview-150
+
 
 ## Template
 | Difficulty | Problem | Algo/DS |

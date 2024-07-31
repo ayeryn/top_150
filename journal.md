@@ -8,6 +8,7 @@
     - [7/28](#728)
     - [7/29](#729)
     - [7/30](#730)
+    - [7/31](#731)
   - [Template](#template)
 
 ## Principle
@@ -93,14 +94,24 @@
 |------------|----------|--------|
 | Easy       | [Convert sorted array to BST][2] | D&C |
 | Medium     | [Snakes and ladders][1] | Graph BFS |
-| Medium     | [][] |   |
-| Medium     | [][] |   |
-| Hard       | [][] |   |
-| Hard       | [][] |   |
+
 
 [1]: https://leetcode.com/problems/snakes-and-ladders/description/?envType=study-plan-v2&envId=top-interview-150
 [2]: https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/submissions/1338890749/?envType=study-plan-v2&envId=top-interview-150
 
+
+### 7/31
+| Difficulty | Problem | Algo/DS |
+|------------|----------|--------|
+| Easy       | [][] |   |
+| Medium     | [Find k smallest pair sums][1] | Heap |
+| Medium     | [Kth largest element][2] | Heap |
+| Medium     | [][] |   |
+| Hard       | [][] |   |
+| Hard       | [][] |   |
+
+[1]: https://leetcode.com/problems/find-k-pairs-with-smallest-sums/submissions/1338896321/?envType=study-plan-v2&envId=top-interview-150
+[2]: https://leetcode.com/problems/kth-largest-element-in-an-array/?envType=study-plan-v2&envId=top-interview-150
 
 ## Template
 | Difficulty | Problem | Algo/DS |

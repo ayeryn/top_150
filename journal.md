@@ -107,13 +107,15 @@
 | Medium     | [Find k smallest pair sums][1] | Heap |
 | Medium     | [Kth largest element][2] | Heap |
 | Medium     | [House robber][4] | DP |
-| Hard       | [][] |   |
-| Hard       | [][] |   |
+| Medium     | [Word break][5] | DP |
+| Hard       | [Buy & sell stocks IV][6] | DP |
 
 [1]: https://leetcode.com/problems/find-k-pairs-with-smallest-sums/submissions/1338896321/?envType=study-plan-v2&envId=top-interview-150
 [2]: https://leetcode.com/problems/kth-largest-element-in-an-array/?envType=study-plan-v2&envId=top-interview-150
 [3]: https://leetcode.com/problems/plus-one/?envType=study-plan-v2&envId=top-interview-150
 [4]: https://leetcode.com/problems/house-robber/?envType=study-plan-v2&envId=top-interview-150
+[5]: https://leetcode.com/problems/word-break/?envType=study-plan-v2&envId=top-interview-150
+[6]: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/?envType=study-plan-v2&envId=top-interview-150
 
 ## Template
 | Difficulty | Problem | Algo/DS |

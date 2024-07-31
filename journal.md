@@ -106,13 +106,14 @@
 | Easy       | [Plus one][3] | Math |
 | Medium     | [Find k smallest pair sums][1] | Heap |
 | Medium     | [Kth largest element][2] | Heap |
-| Medium     | [][] |   |
+| Medium     | [House robber][4] | DP |
 | Hard       | [][] |   |
 | Hard       | [][] |   |
 
 [1]: https://leetcode.com/problems/find-k-pairs-with-smallest-sums/submissions/1338896321/?envType=study-plan-v2&envId=top-interview-150
 [2]: https://leetcode.com/problems/kth-largest-element-in-an-array/?envType=study-plan-v2&envId=top-interview-150
 [3]: https://leetcode.com/problems/plus-one/?envType=study-plan-v2&envId=top-interview-150
+[4]: https://leetcode.com/problems/house-robber/?envType=study-plan-v2&envId=top-interview-150
 
 ## Template
 | Difficulty | Problem | Algo/DS |

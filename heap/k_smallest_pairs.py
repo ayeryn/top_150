@@ -3,50 +3,54 @@
 from heapq import heappop, heappush
 
 
-def find_pairs(nums1, nums2):
+def find_pairs(nums1, nums2, k):
     heap = []
-    i = j = 0
-    if len(nums1) > 1:
-        next_i_sum = nums1[1] + nums2[j]
-    else:
-        next_i_sum = nums1[i] + nums2[j]
+    ans = []
 
-    while len(heap) < k and i < len(nums1):
-        curr_sum = nums1[i] + nums2[j]
-        print(
-            f"next_sum = {next_i_sum}, i = {i}, x = {nums1[i]}, j = {j}, y = {nums2[j]}"
-        )
-        if j < len(nums2) and curr_sum < next_i_sum:
-            print("Traverse nums2 ----")
-            heappush(heap, [nums1[i], nums2[j]])
-            print(f"x + y = {nums1[i] + nums2[j]}, {heap}")
+    # Use a heap to track the smallest possible sum for each x
+    for i in range(len(nums1)):
+        heappush(heap, (nums1[i] + nums2[0], i, 0))
+
+    while i < len(nums1) and k:
+        top = heappop(heap)
+        i, j = top[1], top[2]
+        ans.append([nums1[i], nums2[j]])
+        j += 1
+        k -= 1
+
+        while (
+            j < len(nums2)
+            and (heap and nums1[i] + nums2[j] < heap[0][0] or not heap)
+            and k
+        ):
+            ans.append([nums1[i], nums2[j]])
             j += 1
-        else:
-            # Reached end of nums2 OR
-            # n1[i] + n2[j] > n1[i+1] + n2[0]
-            i += 1
-            j = 0
-            print(f"Increase i => {i}, restart nums2 => {j}")
-            if i + 1 < len(nums1):
-                next_i_sum = nums1[i + 1] + nums2[j]
-                print("Update sum ", next_i_sum)
+            k -= 1
 
-            print("\n")
+        if j < len(nums2):
+            # Update heap
+            heappush(heap, (nums1[i] + nums2[j], i, j))
 
-    return heap
+    return ans
 
 
-def find_pairs_brute(nums1: list[int], nums2: list[int]) -> list[list[int]]:
+def find_pairs_brute(nums1: list[int], nums2: list[int], k: int) -> list[list[int]]:
     heap = []
 
     # Brute force, not using the non-decreasing property of nums arrays
-    for x in nums1:
-        for y in nums2:
-            heappush(heap, (x + y, x, y))
+    for i in range(len(nums1)):
+        for j in range(len(nums2)):
+            heappush(heap, (nums1[i] + nums2[j], i, j))
 
     ret = []
+    print(heap)
     while k:
         top = heappop(heap)
         ret.append([top[1], top[2]])
         k -= 1
     return ret
+
+
+n1 = [1, 1, 2]
+n2 = [1, 2, 3]
+find_pairs_brute(n1, n2, 2)

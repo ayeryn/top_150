@@ -129,13 +129,14 @@
 |------------|----------|--------|
 | Easy       | [My sqrt][2] | Math |
 | Medium     | [Combination sum][1] | Backtracking |
-| Medium     | [][] |   |
+| Medium     | [Gene mutation][3] | Graph BFS |
 | Medium     | [][] |   |
 | Hard       | [][] |   |
 | Hard       | [][] |   |
 
 [1]: https://leetcode.com/problems/combination-sum/?envType=study-plan-v2&envId=top-interview-150
 [2]: https://leetcode.com/problems/sqrtx/?envType=study-plan-v2&envId=top-interview-150
+[3]: https://leetcode.com/problems/minimum-genetic-mutation/submissions/1340835666/?envType=study-plan-v2&envId=top-interview-150
 
 ## Template
 | Difficulty | Problem | Algo/DS |

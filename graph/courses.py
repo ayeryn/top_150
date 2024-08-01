@@ -4,17 +4,27 @@ from collections import defaultdict
 
 
 def courses(courses: int, prereq: list[list[int]]) -> bool:
-    graph = defaultdict(list)
+    # Keep track of prereq to course and course_to_prereq maps
+    pre_c = defaultdict(list)
+    c_pre = defaultdict(list)
     taken = set()
 
     for a, b in prereq:
-        graph[a].append(b)
+        # Construct graphs
+        pre_c[b].append(a)
+        c_pre[a].append(b)
+
+    def traverse(x):
+        taken.add(x)
+
+        for p in pre_c[x]:
+
+            if all([i in taken for i in c_pre[p]]) and p not in taken:
+                traverse(p)
 
     for i in range(courses):
-        # FIXME: don't need to take courses in-order
-        if i not in graph or any([p in taken for p in graph[i]]):
-            taken.add(i)
-        else:
-            return False
+        # Find all classes can be taken
+        if i not in c_pre and i not in taken:
+            traverse(i)
 
-    return True
+    return len(taken) == courses

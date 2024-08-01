@@ -127,7 +127,7 @@
 ### 8/1
 | Difficulty | Problem | Algo/DS |
 |------------|----------|--------|
-| Easy       | [][] |   |
+| Easy       | [My sqrt][2] | Math |
 | Medium     | [Combination sum][1] | Backtracking |
 | Medium     | [][] |   |
 | Medium     | [][] |   |
@@ -135,6 +135,7 @@
 | Hard       | [][] |   |
 
 [1]: https://leetcode.com/problems/combination-sum/?envType=study-plan-v2&envId=top-interview-150
+[2]: https://leetcode.com/problems/sqrtx/?envType=study-plan-v2&envId=top-interview-150
 
 ## Template
 | Difficulty | Problem | Algo/DS |

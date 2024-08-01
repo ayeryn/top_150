@@ -108,6 +108,7 @@
 | Medium     | [Kth largest element][2] | Heap |
 | Medium     | [House robber][4] | DP |
 | Medium     | [Word break][5] | DP |
+| Medium     | [Rotate list][7] | Linked list |
 | Hard       | [Buy & sell stocks IV][6] | DP |
 
 [1]: https://leetcode.com/problems/find-k-pairs-with-smallest-sums/submissions/1338896321/?envType=study-plan-v2&envId=top-interview-150
@@ -116,6 +117,7 @@
 [4]: https://leetcode.com/problems/house-robber/?envType=study-plan-v2&envId=top-interview-150
 [5]: https://leetcode.com/problems/word-break/?envType=study-plan-v2&envId=top-interview-150
 [6]: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/?envType=study-plan-v2&envId=top-interview-150
+[7]: https://leetcode.com/problems/rotate-list/description/?envType=study-plan-v2&envId=top-interview-150
 
 ## Template
 | Difficulty | Problem | Algo/DS |

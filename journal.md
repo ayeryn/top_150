@@ -131,12 +131,13 @@
 | Medium     | [Combination sum][1] | Backtracking |
 | Medium     | [Gene mutation][3] | Graph BFS |
 | Medium     | [][] |   |
-| Hard       | [][] |   |
+| Hard       | [Word ladder][4] |   |
 | Hard       | [][] |   |
 
 [1]: https://leetcode.com/problems/combination-sum/?envType=study-plan-v2&envId=top-interview-150
 [2]: https://leetcode.com/problems/sqrtx/?envType=study-plan-v2&envId=top-interview-150
 [3]: https://leetcode.com/problems/minimum-genetic-mutation/submissions/1340835666/?envType=study-plan-v2&envId=top-interview-150
+[4]: https://leetcode.com/problems/word-ladder/?envType=study-plan-v2&envId=top-interview-150
 
 ## Template
 | Difficulty | Problem | Algo/DS |

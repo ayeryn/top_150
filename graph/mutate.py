@@ -1,6 +1,6 @@
 # 433
 
-from collections import deque
+from collections import deque, defaultdict
 
 
 def mutate(startGene: str, endGene: str, bank: list[str]) -> int:
@@ -10,42 +10,30 @@ def mutate(startGene: str, endGene: str, bank: list[str]) -> int:
     bank = set(bank)
     seen = set([startGene])
     steps = 0
+    graph = deque([startGene])
 
-    # Mutation graph
-    mutate = {
-        "A": ["C", "G", "T"],
-        "C": ["A", "G", "T"],
-        "G": ["A", "C", "T"],
-        "T": ["A", "C", "G"],
-    }
-
-    def find_mutation(gene):
-        # Find all unseen and valid mutations of gene
-        ans = []
+    # Construct adjacency list from bank
+    # to avoid invalid gene mutations
+    mutation = defaultdict(list)
+    for gene in bank:
         for i in range(len(gene)):
-            for mutation in mutate[gene[i]]:
-                t = gene[:i] + mutation + gene[i + 1 :]
-                if t in bank and t not in seen:
-                    seen.add(t)
-                    ans.append(t)
-
-        return ans
-
-    graph = deque()
-    graph.append(startGene)
+            pattern = gene[:i] + "*" + gene[i + 1 :]
+            mutation[pattern].append(gene)
 
     while graph:
         n = len(graph)
         for _ in range(n):
             gene = graph.popleft()
+            if gene == endGene:
+                return steps
 
-            for m in find_mutation(gene):
-                if m == endGene:
-                    return steps + 1
-
-                # if m not in seen:
-                seen.add(m)
-                graph.append(m)
+            for i in range(len(gene)):
+                pattern = gene[:i] + "*" + gene[i + 1 :]
+                for g in mutation[pattern]:
+                    # Check against all VALID mutations
+                    if g != gene and gene not in seen:
+                        seen.add(g)
+                        graph.append(g)
 
         steps += 1
 

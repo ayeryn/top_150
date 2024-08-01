@@ -9,6 +9,8 @@
     - [7/29](#729)
     - [7/30](#730)
     - [7/31](#731)
+  - [Aug 2024](#aug-2024)
+    - [8/1](#81)
   - [Template](#template)
 
 ## Principle
@@ -120,6 +122,19 @@
 [6]: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/?envType=study-plan-v2&envId=top-interview-150
 [7]: https://leetcode.com/problems/rotate-list/description/?envType=study-plan-v2&envId=top-interview-150
 [8]: https://leetcode.com/problems/course-schedule/?envType=study-plan-v2&envId=top-interview-150
+
+## Aug 2024
+### 8/1
+| Difficulty | Problem | Algo/DS |
+|------------|----------|--------|
+| Easy       | [][] |   |
+| Medium     | [Combination sum][1] | Backtracking |
+| Medium     | [][] |   |
+| Medium     | [][] |   |
+| Hard       | [][] |   |
+| Hard       | [][] |   |
+
+[1]: https://leetcode.com/problems/combination-sum/?envType=study-plan-v2&envId=top-interview-150
 
 ## Template
 | Difficulty | Problem | Algo/DS |

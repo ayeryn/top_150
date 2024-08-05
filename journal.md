@@ -145,7 +145,7 @@
 |------------|----------|--------|
 | Easy       | [][] |   |
 | Medium     | [pow(x, n)][1] | Math |
-| Medium     | [][] |   |
+| Medium     | [Coin change][2] | DP |
 | Medium     | [][] |   |
 | Hard       | [][] |   |
 | Hard       | [][] |   |

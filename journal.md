@@ -143,7 +143,7 @@
 ### 8/5
 | Difficulty | Problem | Algo/DS |
 |------------|----------|--------|
-| Easy       | [][] |   |
+| Easy       | [Climb stairs][4] | DP |
 | Medium     | [pow(x, n)][1] | Math |
 | Medium     | [Coin change][2] | DP |
 | Medium     | [Triangle][3] | DP |
@@ -153,6 +153,7 @@
 [1]: https://leetcode.com/problems/powx-n/?envType=study-plan-v2&envId=top-interview-150
 [2]: https://leetcode.com/problems/coin-change/description/?envType=study-plan-v2&envId=top-interview-150
 [3]: https://leetcode.com/problems/triangle/description/?envType=study-plan-v2&envId=top-interview-150
+[4]: https://leetcode.com/problems/climbing-stairs/?envType=study-plan-v2&envId=top-interview-150
 
 ## Template
 | Difficulty | Problem | Algo/DS |

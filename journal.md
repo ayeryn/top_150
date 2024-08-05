@@ -146,11 +146,13 @@
 | Easy       | [][] |   |
 | Medium     | [pow(x, n)][1] | Math |
 | Medium     | [Coin change][2] | DP |
-| Medium     | [][] |   |
+| Medium     | [Triangle][3] | DP |
 | Hard       | [][] |   |
 | Hard       | [][] |   |
 
 [1]: https://leetcode.com/problems/powx-n/?envType=study-plan-v2&envId=top-interview-150
+[2]: https://leetcode.com/problems/coin-change/description/?envType=study-plan-v2&envId=top-interview-150
+[3]: https://leetcode.com/problems/triangle/description/?envType=study-plan-v2&envId=top-interview-150
 
 ## Template
 | Difficulty | Problem | Algo/DS |

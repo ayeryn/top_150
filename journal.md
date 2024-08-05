@@ -11,6 +11,7 @@
     - [7/31](#731)
   - [Aug 2024](#aug-2024)
     - [8/1](#81)
+    - [8/5](#85)
   - [Template](#template)
 
 ## Principle
@@ -132,13 +133,24 @@
 | Medium     | [Gene mutation][3] | Graph BFS |
 | Medium     | [Word search][5] | Backtracking |
 | Hard       | [Word ladder][4] |   |
-| Hard       | [][] |   |
 
 [1]: https://leetcode.com/problems/combination-sum/?envType=study-plan-v2&envId=top-interview-150
 [2]: https://leetcode.com/problems/sqrtx/?envType=study-plan-v2&envId=top-interview-150
 [3]: https://leetcode.com/problems/minimum-genetic-mutation/submissions/1340835666/?envType=study-plan-v2&envId=top-interview-150
 [4]: https://leetcode.com/problems/word-ladder/?envType=study-plan-v2&envId=top-interview-150
 [5]: https://leetcode.com/problems/word-search/?envType=study-plan-v2&envId=top-interview-150
+
+### 8/5
+| Difficulty | Problem | Algo/DS |
+|------------|----------|--------|
+| Easy       | [][] |   |
+| Medium     | [pow(x, n)][1] | Math |
+| Medium     | [][] |   |
+| Medium     | [][] |   |
+| Hard       | [][] |   |
+| Hard       | [][] |   |
+
+[1]: https://leetcode.com/problems/powx-n/?envType=study-plan-v2&envId=top-interview-150
 
 ## Template
 | Difficulty | Problem | Algo/DS |

@@ -164,12 +164,13 @@
 |------------|----------|--------|
 | Easy       | [][] |   |
 | Medium     | [Longest increasing subsequence][1] | DP |
-| Medium     | [][] |   |
+| Medium     | [Partition][2] | Linked list |
 | Medium     | [][] |   |
 | Hard       | [][] |   |
 | Hard       | [][] |   |
 
 [1]: https://leetcode.com/problems/longest-increasing-subsequence/?envType=study-plan-v2&envId=top-interview-150
+[2]: https://leetcode.com/problems/partition-list/?envType=study-plan-v2&envId=top-interview-150
 
 ## Template
 | Difficulty | Problem | Algo/DS |

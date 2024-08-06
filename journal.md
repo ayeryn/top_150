@@ -12,6 +12,7 @@
   - [Aug 2024](#aug-2024)
     - [8/1](#81)
     - [8/5](#85)
+    - [8/6](#86)
   - [Template](#template)
 
 ## Principle
@@ -156,6 +157,19 @@
 [4]: https://leetcode.com/problems/climbing-stairs/?envType=study-plan-v2&envId=top-interview-150
 [5]: https://leetcode.com/problems/n-queens/
 [6]: https://leetcode.com/problems/n-queens-ii/?envType=study-plan-v2&envId=top-interview-150
+
+
+### 8/6
+| Difficulty | Problem | Algo/DS |
+|------------|----------|--------|
+| Easy       | [][] |   |
+| Medium     | [Longest increasing subsequence][1] | DP |
+| Medium     | [][] |   |
+| Medium     | [][] |   |
+| Hard       | [][] |   |
+| Hard       | [][] |   |
+
+[1]: https://leetcode.com/problems/longest-increasing-subsequence/?envType=study-plan-v2&envId=top-interview-150
 
 ## Template
 | Difficulty | Problem | Algo/DS |

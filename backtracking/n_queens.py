@@ -16,13 +16,9 @@ def n_queens(n: int) -> list[list[str]]:
         Returns:
         list: A list of strings representing the solution array.
         """
-        n = len(board)
-        b = [["." for _ in range(n)] for _ in range(n)]
+        ret = ["" for _ in range(n)]
         for row in board:
-            b[row][board[row]] = "Q"
-        ret = []
-        for row in b:
-            ret.append("".join(row))
+            ret[row] = "." * board[row] + "Q" + "." * (n - 1 - board[row])
         return ret
 
     def available_cols(x: int, board: Dict[int, int]):
@@ -80,9 +76,9 @@ def n_queens(n: int) -> list[list[str]]:
             return
 
         for i in solutions:
-            state[x] = i # Update state
-            solve(x + 1, state) # Solve for next row
-            del state[x] # Backtrack
-        
+            state[x] = i  # Update state
+            solve(x + 1, state)  # Solve for next row
+            del state[x]  # Backtrack
+
     solve(0, {})
     return ans

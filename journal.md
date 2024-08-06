@@ -155,7 +155,7 @@
 [3]: https://leetcode.com/problems/triangle/description/?envType=study-plan-v2&envId=top-interview-150
 [4]: https://leetcode.com/problems/climbing-stairs/?envType=study-plan-v2&envId=top-interview-150
 [5]: https://leetcode.com/problems/n-queens/
-[6]:
+[6]: https://leetcode.com/problems/n-queens-ii/?envType=study-plan-v2&envId=top-interview-150
 
 ## Template
 | Difficulty | Problem | Algo/DS |

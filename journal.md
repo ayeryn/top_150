@@ -13,6 +13,7 @@
     - [8/1](#81)
     - [8/5](#85)
     - [8/6](#86)
+    - [8/7](#87)
   - [Template](#template)
 
 ## Principle
@@ -178,12 +179,36 @@
 [6]: https://leetcode.com/problems/palindromic-substrings/
 [7]: https://leetcode.com/problems/longest-palindromic-substring/?envType=study-plan-v2&envId=top-interview-150
 
+### 8/7
+| Difficulty | Problem | Algo/DS |
+|------------|----------|--------|
+| Easy       | [Reverse bits][1] | Bit |
+| Medium     | [][2] |   |
+| Medium     | [][3] |   |
+| Medium     | [][4] |   |
+| Hard       | [][5] |   |
+| Hard       | [][6] |   |
+
+[1]: 
+[2]: 
+[3]: 
+[4]: 
+[5]: 
+[6]: 
+
 ## Template
 | Difficulty | Problem | Algo/DS |
 |------------|----------|--------|
-| Easy       | [][] |   |
-| Medium     | [][] |   |
-| Medium     | [][] |   |
-| Medium     | [][] |   |
-| Hard       | [][] |   |
-| Hard       | [][] |   |
+| Easy       | [][1] |   |
+| Medium     | [][2] |   |
+| Medium     | [][3] |   |
+| Medium     | [][4] |   |
+| Hard       | [][5] |   |
+| Hard       | [][6] |   |
+
+[1]: 
+[2]: 
+[3]: 
+[4]: 
+[5]: 
+[6]:

@@ -2,6 +2,7 @@
 
 
 class LRUCache:
+    # TODO: Optimize to get O(1)
     """
     Utilize a linked list structure such that:
     - The LRU cache node is always at head

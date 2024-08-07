@@ -23,32 +23,32 @@ class LRUCache:
         self.kv = {}  # cache key, value mapping
 
     def get(self, key: int) -> int:
-        if key not in self.kv:
+        if key not in self.kv:  # O(1)
             return -1
 
-        ret = self.kv[key]
-        self.move_to_tail(key)
+        ret = self.kv[key]  # O(1)
+        self.move_to_tail(key)  # O(N)
         return ret
 
     def put(self, key: int, value: int) -> None:
         if key in self.kv:
             # Update key, value mapping and move to tail
             self.kv[key] = value
-            self.move_to_tail(key)
+            self.move_to_tail(key)  # O(N)
             return
 
-        if self.size == self.cap:
+        if self.size == self.cap:  # O(1)
             # Cache is full, remove LRU cache first
             lru = self.head
             self.head = self.head.next  # Update head
             del self.kv[lru.val]  # Remove key val mapping
             self.size -= 1
 
-        if self.size == 0:
+        if self.size == 0:  # O(1)
             # If cache is empty, initialize self.head
             self.head = self.ListNode(key)
             self.tail = self.head  # Update tail
-        else:
+        else:  # O(1)
             # Cache has space, insert at tail
             self.tail.next = self.ListNode(key)
             self.tail = self.tail.next
@@ -72,6 +72,7 @@ class LRUCache:
             self.tail = temp
             return
 
+        # Nodes between head and tail - O(N) worst case (tail.prev)
         prev = None
         curr = self.head
         while curr and curr.val != key:

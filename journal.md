@@ -166,14 +166,17 @@
 | Medium     | [Longest increasing subsequence][1] | DP |
 | Medium     | [Partition][2] | Linked list |
 | Medium     | [Min path sum][4] | DP |
+| Medium     | [Palindromic strings][6] | Two Pointer |
+| Medium     | [Longest palindrome][7] | Two Pointer |
 | Hard       | [Max points][5] | Math |
-| Hard       | [][] |   |
 
 [1]: https://leetcode.com/problems/longest-increasing-subsequence/?envType=study-plan-v2&envId=top-interview-150
 [2]: https://leetcode.com/problems/partition-list/?envType=study-plan-v2&envId=top-interview-150
 [3]: https://leetcode.com/problems/add-binary/submissions/1346793374/?envType=study-plan-v2&envId=top-interview-150
 [4]: https://leetcode.com/problems/minimum-path-sum/?envType=study-plan-v2&envId=top-interview-150
-[5]: 
+[5]: https://leetcode.com/problems/max-points-on-a-line/description/?envType=study-plan-v2&envId=top-interview-150
+[6]: https://leetcode.com/problems/palindromic-substrings/
+[7]: https://leetcode.com/problems/longest-palindromic-substring/?envType=study-plan-v2&envId=top-interview-150
 
 ## Template
 | Difficulty | Problem | Algo/DS |

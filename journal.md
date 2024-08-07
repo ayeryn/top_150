@@ -293,16 +293,16 @@
 | Medium     | [Maximum square][1] | DP |
 | Medium     | [Bitwise AND of numbers range][2] | Bit |
 | Medium     | [Edit Distance][3] | DP |
-| Hard       | [Word break][4] |   |
+| Medium     | [pow(x, n)][4] | Math (*Revisit to get optimal solution*)|
+| Hard       | [Word break II][5] |   |
 | Hard       | [][5] |   |
 | Hard       | [][6] |   |
 
 [1]: https://leetcode.com/problems/maximal-square/description/?envType=study-plan-v2&envId=top-interview-150
 [2]: https://leetcode.com/problems/bitwise-and-of-numbers-range/description/?envType=study-plan-v2&envId=top-interview-150
 [3]: https://leetcode.com/problems/edit-distance/?envType=study-plan-v2&envId=top-interview-150
-[4]: https://www.youtube.com/watch?v=QgLKdluDo08&list=PLQpVsaqBj4RI3jgIzqK7VJHy8Esacg-ow&index=49
-[5]: 
-[6]:
+[5]: https://www.youtube.com/watch?v=QgLKdluDo08&list=PLQpVsaqBj4RI3jgIzqK7VJHy8Esacg-ow&index=49
+[6]: 
 
 
 ## Template

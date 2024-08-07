@@ -2,17 +2,25 @@
 
 
 class LRUCache:
-    class ListNode:
+    """
+    Utilize a linked list structure such that:
+    - The LRU cache node is always at head
+    - The MRU cache node is always at tail
+    - (aka. linked list is oldest to newest from front to back)
+    - Updating an existing cache value bumps it to MRU
+    """
+
+    class ListNode:  # Nested ListNode class
         def __init__(self, val, next=None):
             self.val = val
             self.next = next
 
     def __init__(self, capacity: int):
-        self.cap = capacity
-        self.size = 0
-        self.head = None
+        self.cap = capacity  # capacity
+        self.size = 0  # current cache size
+        self.head = None  # Init linked list
         self.tail = None
-        self.kv = {}
+        self.kv = {}  # cache key, value mapping
 
     def get(self, key: int) -> int:
         if key not in self.kv:
@@ -54,12 +62,10 @@ class LRUCache:
         """
         if self.tail.val == key:
             # Node is already at tail, terminate
+            # Including when it's the only node in cache (head == tail)
             return
 
         if self.head.val == key:
-            if not self.head.next:
-                # Only node in cache, terminate
-                return
             temp = self.head
             self.head = self.head.next
             self.tail.next = temp

@@ -14,6 +14,12 @@
     - [8/5](#85)
     - [8/6](#86)
     - [8/7](#87)
+    - [8/8](#88)
+    - [8/9](#89)
+    - [8/10](#810)
+    - [8/11](#811)
+    - [8/12](#812)
+    - [8/13](#813)
   - [Template](#template)
 
 ## Principle
@@ -183,18 +189,121 @@
 | Difficulty | Problem | Algo/DS |
 |------------|----------|--------|
 | Easy       | [Reverse bits][1] | Bit |
-| Medium     | [][2] |   |
-| Medium     | [][3] |   |
-| Medium     | [][4] |   |
+| Medium     | [LRU cache][2] | Linked list  |
+| Medium     | [Binary tree right side view][3] | Tree BFS |
+| Medium     | [Validate binary search tree][4] | BST |
+| Hard       | [Basic calculator][5] | Stack |
+| Hard       | [Second minimum time to reach destination][6] |   |
+
+[1]: https://leetcode.com/problems/reverse-bits/description/?envType=study-plan-v2&envId=top-interview-150
+[2]: https://leetcode.com/problems/lru-cache/description/?envType=study-plan-v2&envId=top-interview-150
+[3]: https://leetcode.com/problems/binary-tree-right-side-view/?envType=study-plan-v2&envId=top-interview-150
+[4]: https://leetcode.com/problems/validate-binary-search-tree/description/?envType=study-plan-v2&envId=top-interview-150
+[5]: https://leetcode.com/problems/basic-calculator/description/?envType=study-plan-v2&envId=top-interview-150
+[6]: https://leetcode.com/problems/second-minimum-time-to-reach-destination/description/
+
+### 8/8
+| Difficulty | Problem | Algo/DS |
+|------------|----------|--------|
+| Easy       | [Number of 1 bits][1] | Bit |
+| Medium     | [Binary tree zigzag level order traversal][2] | Tree |
+| Medium     | [Surrounded regions][3] | Graph DFS |
+| Medium     | [Implement trie][4] | Trie |
+| Hard       | [Build a matrix with conditions][5] |   |
+| Hard       | [Reverse nodes in k-group][6] | Linked List |
+
+[1]: https://leetcode.com/problems/number-of-1-bits/description/?envType=study-plan-v2&envId=top-interview-150
+[2]: https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/?envType=study-plan-v2&envId=top-interview-150
+[3]: https://leetcode.com/problems/surrounded-regions/description/?envType=study-plan-v2&envId=top-interview-150
+[4]: https://leetcode.com/problems/implement-trie-prefix-tree/description/?envType=study-plan-v2&envId=top-interview-150
+[5]: https://leetcode.com/problems/build-a-matrix-with-conditions/description/
+[6]: https://leetcode.com/problems/reverse-nodes-in-k-group/description/?envType=study-plan-v2&envId=top-interview-150
+
+### 8/9
+| Difficulty | Problem | Algo/DS |
+|------------|----------|--------|
+| Easy       | [Single number][1] | Bit |
+| Medium     | [Evaluate division][2] | Graph  |
+| Medium     | [Design word data structure][3] | Trie |
+| Medium     | [Letter combo of phone number][4] | Backtracking |
+| Hard       | [Number of atoms][5] |   |
+| Hard       | [Word search II][6] | Trie |
+
+[1]: https://leetcode.com/problems/single-number/description/?envType=study-plan-v2&envId=top-interview-150
+[2]: https://leetcode.com/problems/evaluate-division/description/?envType=study-plan-v2&envId=top-interview-150
+[3]: https://leetcode.com/problems/design-add-and-search-words-data-structure/description/?envType=study-plan-v2&envId=top-interview-150
+[4]: https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/?envType=study-plan-v2&envId=top-interview-150
+[5]: https://leetcode.com/problems/number-of-atoms/description/
+[6]: https://leetcode.com/problems/word-search-ii/description/?envType=study-plan-v2&envId=top-interview-150
+
+### 8/10
+| Difficulty | Problem | Algo/DS |
+|------------|----------|--------|
+| Medium     | [Factorial trialing zeroes][1] | Math |
+| Medium     | [Course schedule II][2] | Graph |
+| Medium     | [Generate Parentheses][3] | Backtracking |
+| Medium     | [Sort list][4] | D&C |
+| Hard       | [Robot collisions][5] |   |
+| Hard       | [Merge k sorted lists][6] | D&C |
+
+[1]: https://leetcode.com/problems/factorial-trailing-zeroes/description/?envType=study-plan-v2&envId=top-interview-150
+[2]: https://leetcode.com/problems/course-schedule-ii/description/?envType=study-plan-v2&envId=top-interview-150
+[3]: https://leetcode.com/problems/generate-parentheses/description/?envType=study-plan-v2&envId=top-interview-150
+[4]: https://leetcode.com/problems/sort-list/description/?envType=study-plan-v2&envId=top-interview-150
+[5]: https://leetcode.com/problems/robot-collisions/description/
+[6]: https://leetcode.com/problems/merge-k-sorted-lists/description/?envType=study-plan-v2&envId=top-interview-150
+
+### 8/11
+| Difficulty | Problem | Algo/DS |
+|------------|----------|--------|
+| Medium     | [Unique paths][1] | DP |
+| Medium     | [Construct quad tree][2] | D&C |
+| Medium     | [Maximum subarray][3] | Kadane |
+| Medium     | [Search 2D matrix][4] | BST |
+| Hard       | [Minimum number of k consecutive bit flips][5] |   |
+| Hard       | [Median of two sorted array][6] | Binary search |
+
+[1]: https://leetcode.com/problems/unique-paths-ii/description/?envType=study-plan-v2&envId=top-interview-150
+[2]: https://leetcode.com/problems/construct-quad-tree/description/?envType=study-plan-v2&envId=top-interview-150
+[3]: https://leetcode.com/problems/maximum-subarray/description/?envType=study-plan-v2&envId=top-interview-150
+[4]: https://leetcode.com/problems/search-a-2d-matrix/description/?envType=study-plan-v2&envId=top-interview-150
+[5]: https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/description/
+[6]:https://leetcode.com/problems/median-of-two-sorted-arrays/description/?envType=study-plan-v2&envId=top-interview-150
+
+### 8/12
+| Difficulty | Problem | Algo/DS |
+|------------|----------|--------|
+| Easy       | [Interleaving strings][1] | DP |
+| Medium     | [Maximum sum circular subarray][2] | Kadane |
+| Medium     | [Find peak element][3] | BST |
+| Medium     | [Single number II][4] | Bit |
+| Hard       | [Student attendance record II][5] |   |
+| Hard       | [Find median from data stream][6] | Heap |
+
+[1]: https://leetcode.com/problems/interleaving-string/description/?envType=study-plan-v2&envId=top-interview-150
+[2]: https://leetcode.com/problems/maximum-sum-circular-subarray/description/?envType=study-plan-v2&envId=top-interview-150
+[3]: https://leetcode.com/problems/find-peak-element/description/?envType=study-plan-v2&envId=top-interview-150
+[4]: https://leetcode.com/problems/single-number-ii/description/?envType=study-plan-v2&envId=top-interview-150
+[5]: https://leetcode.com/problems/student-attendance-record-ii/description/
+[6]: https://leetcode.com/problems/find-median-from-data-stream/description/?envType=study-plan-v2&envId=top-interview-150
+
+### 8/13
+| Difficulty | Problem | Algo/DS |
+|------------|----------|--------|
+| Medium     | [Maximum square][1] | DP |
+| Medium     | [Bitwise AND of numbers range][2] | Bit |
+| Medium     | [Edit Distance][3] | DP |
+| Hard       | [Word break][4] |   |
 | Hard       | [][5] |   |
 | Hard       | [][6] |   |
 
-[1]: 
-[2]: 
-[3]: 
-[4]: 
+[1]: https://leetcode.com/problems/maximal-square/description/?envType=study-plan-v2&envId=top-interview-150
+[2]: https://leetcode.com/problems/bitwise-and-of-numbers-range/description/?envType=study-plan-v2&envId=top-interview-150
+[3]: https://leetcode.com/problems/edit-distance/?envType=study-plan-v2&envId=top-interview-150
+[4]: https://www.youtube.com/watch?v=QgLKdluDo08&list=PLQpVsaqBj4RI3jgIzqK7VJHy8Esacg-ow&index=49
 [5]: 
-[6]: 
+[6]:
+
 
 ## Template
 | Difficulty | Problem | Algo/DS |

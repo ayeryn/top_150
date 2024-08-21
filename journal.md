@@ -199,8 +199,13 @@
 [4]: https://leetcode.com/problems/validate-binary-search-tree/description/?envType=study-plan-v2&envId=top-interview-150
 
 ### 8/20
+| Difficulty | Problem | Algo/DS |
+|------------|----------|--------|
 | Medium     | [Binary tree zigzag level order traversal][1] | Tree |
+| Medium     | [Find First and Last Position of Element in Sorted Array][2] | BST |
+
 [1]: https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/?envType=study-plan-v2&envId=top-interview-150
+[2]: https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/?envType=study-plan-v2&envId=top-interview-150
 
 
 ### 8/21

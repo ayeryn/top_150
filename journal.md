@@ -14,7 +14,8 @@
     - [8/5](#85)
     - [8/6](#86)
     - [8/7](#87)
-    - [8/8](#88)
+    - [8/20](#820)
+    - [8/21](#821)
     - [8/9](#89)
     - [8/10](#810)
     - [8/11](#811)
@@ -188,36 +189,40 @@
 ### 8/7
 | Difficulty | Problem | Algo/DS |
 |------------|----------|--------|
-| Easy       | [Reverse bits][1] | Bit |
 | Medium     | [LRU cache][2] | Linked list  |
 | Medium     | [Binary tree right side view][3] | Tree BFS |
 | Medium     | [Validate binary search tree][4] | BST |
-| Hard       | [Basic calculator][5] | Stack |
-| Hard       | [Second minimum time to reach destination][6] |   |
 
-[1]: https://leetcode.com/problems/reverse-bits/description/?envType=study-plan-v2&envId=top-interview-150
+
 [2]: https://leetcode.com/problems/lru-cache/description/?envType=study-plan-v2&envId=top-interview-150
 [3]: https://leetcode.com/problems/binary-tree-right-side-view/?envType=study-plan-v2&envId=top-interview-150
 [4]: https://leetcode.com/problems/validate-binary-search-tree/description/?envType=study-plan-v2&envId=top-interview-150
-[5]: https://leetcode.com/problems/basic-calculator/description/?envType=study-plan-v2&envId=top-interview-150
-[6]: https://leetcode.com/problems/second-minimum-time-to-reach-destination/description/
 
-### 8/8
+### 8/20
+| Medium     | [Binary tree zigzag level order traversal][1] | Tree |
+[1]: https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/?envType=study-plan-v2&envId=top-interview-150
+
+
+### 8/21
 | Difficulty | Problem | Algo/DS |
 |------------|----------|--------|
 | Easy       | [Number of 1 bits][1] | Bit |
-| Medium     | [Binary tree zigzag level order traversal][2] | Tree |
+| Easy       | [Reverse bits][7] | Bit |
 | Medium     | [Surrounded regions][3] | Graph DFS |
 | Medium     | [Implement trie][4] | Trie |
 | Hard       | [Build a matrix with conditions][5] |   |
 | Hard       | [Reverse nodes in k-group][6] | Linked List |
+| Hard       | [Basic calculator][8] | Stack |
+| Hard       | [Second minimum time to reach destination][9] |   |
 
 [1]: https://leetcode.com/problems/number-of-1-bits/description/?envType=study-plan-v2&envId=top-interview-150
-[2]: https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/?envType=study-plan-v2&envId=top-interview-150
 [3]: https://leetcode.com/problems/surrounded-regions/description/?envType=study-plan-v2&envId=top-interview-150
 [4]: https://leetcode.com/problems/implement-trie-prefix-tree/description/?envType=study-plan-v2&envId=top-interview-150
 [5]: https://leetcode.com/problems/build-a-matrix-with-conditions/description/
 [6]: https://leetcode.com/problems/reverse-nodes-in-k-group/description/?envType=study-plan-v2&envId=top-interview-150
+[7]: https://leetcode.com/problems/reverse-bits/description/?envType=study-plan-v2&envId=top-interview-150
+[8]: https://leetcode.com/problems/basic-calculator/description/?envType=study-plan-v2&envId=top-interview-150
+[9]: https://leetcode.com/problems/second-minimum-time-to-reach-destination/description/
 
 ### 8/9
 | Difficulty | Problem | Algo/DS |

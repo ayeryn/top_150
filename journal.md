@@ -16,7 +16,7 @@
     - [8/7](#87)
     - [8/20](#820)
     - [8/22](#822)
-    - [8/21](#821)
+    - [8/](#8)
     - [8/9](#89)
     - [8/10](#810)
     - [8/11](#811)
@@ -215,13 +215,15 @@
 | Easy       | [Reverse bits][2] | Bit |
 | Medium     | [Remove dupes from sorted list II][3] | Linked List |
 | Medium     | [Evaluate division][4] | Graph BFS |
+| Medium     | [Implement Trie][5] | Trie |
+
 
 [1]: https://leetcode.com/problems/number-of-1-bits/?envType=study-plan-v2&envId=top-interview-150
 [2]: https://leetcode.com/problems/reverse-bits/submissions/1365137581/?envType=study-plan-v2&envId=top-interview-150
 [3]: https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/?envType=study-plan-v2&envId=top-interview-150
-[4]:
+[4]: https://leetcode.com/problems/implement-trie-prefix-tree/description/?envType=study-plan-v2&envId=top-interview-150
 
-### 8/21
+### 8/
 | Difficulty | Problem | Algo/DS |
 |------------|----------|--------|
 | Medium     | [Surrounded regions][3] | Graph DFS |
@@ -232,7 +234,7 @@
 | Hard       | [Second minimum time to reach destination][9] |   |
 
 [3]: https://leetcode.com/problems/surrounded-regions/description/?envType=study-plan-v2&envId=top-interview-150
-[4]: https://leetcode.com/problems/implement-trie-prefix-tree/description/?envType=study-plan-v2&envId=top-interview-150
+
 [5]: https://leetcode.com/problems/build-a-matrix-with-conditions/description/
 [6]: https://leetcode.com/problems/reverse-nodes-in-k-group/description/?envType=study-plan-v2&envId=top-interview-150
 [7]: https://leetcode.com/problems/reverse-bits/description/?envType=study-plan-v2&envId=top-interview-150
@@ -243,14 +245,12 @@
 | Difficulty | Problem | Algo/DS |
 |------------|----------|--------|
 | Easy       | [Single number][1] | Bit |
-| Medium     | [Evaluate division][2] | Graph  |
-| Medium     | [Design word data structure][3] | Trie |
+
 | Medium     | [Letter combo of phone number][4] | Backtracking |
 | Hard       | [Number of atoms][5] |   |
 | Hard       | [Word search II][6] | Trie |
 
 [1]: https://leetcode.com/problems/single-number/description/?envType=study-plan-v2&envId=top-interview-150
-[2]: https://leetcode.com/problems/evaluate-division/description/?envType=study-plan-v2&envId=top-interview-150
 [3]: https://leetcode.com/problems/design-add-and-search-words-data-structure/description/?envType=study-plan-v2&envId=top-interview-150
 [4]: https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/?envType=study-plan-v2&envId=top-interview-150
 [5]: https://leetcode.com/problems/number-of-atoms/description/

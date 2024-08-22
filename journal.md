@@ -215,15 +215,13 @@
 | Easy       | [Reverse bits][2] | Bit |
 | Medium     | [Remove dupes from sorted list II][3] | Linked List |
 
-[1] https://leetcode.com/problems/number-of-1-bits/?envType=study-plan-v2&envId=top-interview-150
-[2]
-[3] https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/?envType=study-plan-v2&envId=top-interview-150
+[1]: https://leetcode.com/problems/number-of-1-bits/?envType=study-plan-v2&envId=top-interview-150
+[2]: https://leetcode.com/problems/reverse-bits/submissions/1365137581/?envType=study-plan-v2&envId=top-interview-150
+[3]: https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/?envType=study-plan-v2&envId=top-interview-150
 
 ### 8/21
 | Difficulty | Problem | Algo/DS |
 |------------|----------|--------|
-| Easy       | [Number of 1 bits][1] | Bit |
-| Easy       | [Reverse bits][7] | Bit |
 | Medium     | [Surrounded regions][3] | Graph DFS |
 | Medium     | [Implement trie][4] | Trie |
 | Hard       | [Build a matrix with conditions][5] |   |
@@ -231,7 +229,6 @@
 | Hard       | [Basic calculator][8] | Stack |
 | Hard       | [Second minimum time to reach destination][9] |   |
 
-[1]: https://leetcode.com/problems/number-of-1-bits/description/?envType=study-plan-v2&envId=top-interview-150
 [3]: https://leetcode.com/problems/surrounded-regions/description/?envType=study-plan-v2&envId=top-interview-150
 [4]: https://leetcode.com/problems/implement-trie-prefix-tree/description/?envType=study-plan-v2&envId=top-interview-150
 [5]: https://leetcode.com/problems/build-a-matrix-with-conditions/description/

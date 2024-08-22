@@ -215,7 +215,7 @@
 | Easy       | [Reverse bits][2] | Bit |
 | Medium     | [Remove dupes from sorted list II][3] | Linked List |
 
-[1]
+[1] https://leetcode.com/problems/number-of-1-bits/?envType=study-plan-v2&envId=top-interview-150
 [2]
 [3] https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/?envType=study-plan-v2&envId=top-interview-150
 

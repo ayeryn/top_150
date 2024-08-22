@@ -2,55 +2,59 @@
 
 
 class Trie:
-    # Tree approach - each node has at most 26 children i.e. a-z
-    class Node:
-        def __init__(self, val):
-            self.val = val
-            self.children = set()
-
+    # BST approach
     def __init__(self):
-        self.root = self.Node("")
+        self.tree = []
 
     def insert(self, word: str) -> None:
-        curr = self.root
-        for c in word:
-            child = None
-            for node in curr.children:
-                if node.val == c:
-                    child = node
-                    break
-            if not child:
-                child = self.Node(c)
-                curr.children.add(child)
-            curr = child
+        if len(self.tree) == 0:
+            self.tree.append(word)
+        else:
+            # binary insert
+            left, right = 0, len(self.tree)
+            while left < right:
+                mid = (left + right) // 2
+                if self.tree[mid] == word:
+                    return
+
+                if self.tree[mid] < word:
+                    left = mid + 1
+                else:
+                    right = mid
+
+            # left is insertion point
+            self.tree = self.tree[:left] + [word] + self.tree[left:]
 
     def search(self, word: str) -> bool:
-        # BUG - prefix of any existing words also get added along the way
-        curr = self.root
-        for c in word:
-            has = False
-            for node in curr.children:
-                if node.val == c:
-                    has = True
-                    curr = node
-                    break
+        if len(self.tree) == 0:
+            return False
+        left, right = 0, len(self.tree) - 1
+        while left <= right:
+            mid = (left + right) // 2
+            if self.tree[mid] == word:
+                return True
 
-            if not has:
-                return False
+            if self.tree[mid] < word:
+                left = mid + 1
+            else:
+                right = mid - 1
 
-        return True
+        return False
 
     def startsWith(self, prefix: str) -> bool:
-        curr = self.root
-        for c in prefix:
-            has = False
-            for node in curr.children:
-                if node.val == c:
-                    has = True
-                    curr = node
-                    break
+        if len(self.tree) == 0:
+            return False
 
-            if not has:
-                return False
+        l = len(prefix)
+        left, right = 0, len(self.tree) - 1
+        while left <= right:
+            mid = (left + right) // 2
+            if self.tree[mid][:l] == prefix:
+                return True
 
-        return True
+            if self.tree[mid] < prefix:
+                left = mid + 1
+            else:
+                right = mid - 1
+
+        return False

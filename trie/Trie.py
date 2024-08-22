@@ -23,7 +23,7 @@ class Trie:
                     right = mid
 
             # left is insertion point
-            self.tree = self.tree[:left] + [word] + self.tree[left:]
+            self.tree.insert(left, word)
 
     def search(self, word: str) -> bool:
         if len(self.tree) == 0:

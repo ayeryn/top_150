@@ -48,6 +48,14 @@ def evaluate_division(
                         break  # Terminate for loop
                     elif num not in seen:
                         seen.add(num)
+
+                        # Update graph for future use
+                        graph[x].add(num)
+                        graph[num].add(x)
+                        vals[(x, num)] = q
+                        vals[(num, x)] = 1 / q
+
+                        # Update search space
                         for j in graph[num]:
                             # Ensure quotient is updated
                             sol.append((j, q * vals[(num, j)]))

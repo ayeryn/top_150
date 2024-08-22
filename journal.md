@@ -15,6 +15,7 @@
     - [8/6](#86)
     - [8/7](#87)
     - [8/20](#820)
+    - [8/22](#822)
     - [8/21](#821)
     - [8/9](#89)
     - [8/10](#810)
@@ -207,6 +208,16 @@
 [1]: https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/?envType=study-plan-v2&envId=top-interview-150
 [2]: https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/?envType=study-plan-v2&envId=top-interview-150
 
+### 8/22
+| Difficulty | Problem | Algo/DS |
+|------------|----------|--------|
+| Easy       | [Number of 1 bits][1] | Bit |
+| Easy       | [Reverse bits][2] | Bit |
+| Medium     | [Remove dupes from sorted list II][3] | Linked List |
+
+[1]
+[2]
+[3] https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/?envType=study-plan-v2&envId=top-interview-150
 
 ### 8/21
 | Difficulty | Problem | Algo/DS |

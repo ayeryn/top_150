@@ -13,6 +13,7 @@ class MedianFinder:
         # keep len diff <= 1
         if len(self.max_heap) == 0:  # First insertion
             heappush(self.max_heap, num)
+
         elif num < self.max_heap[0]:  # Smaller half
             heappush(self.min_heap, -num)
 
@@ -20,6 +21,7 @@ class MedianFinder:
             if len(self.min_heap) > len(self.max_heap):
                 move = -heappop(self.min_heap)
                 heappush(self.max_heap, move)
+
         else:  # Larger half
             heappush(self.max_heap, num)
 

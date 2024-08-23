@@ -216,12 +216,15 @@
 | Medium     | [Remove dupes from sorted list II][3] | Linked List |
 | Medium     | [Evaluate division][4] | Graph BFS |
 | Medium     | [Implement Trie][5] | Trie |
+| Hard       | [Find Median from Data Stream][6] | Heap |
 
 
 [1]: https://leetcode.com/problems/number-of-1-bits/?envType=study-plan-v2&envId=top-interview-150
 [2]: https://leetcode.com/problems/reverse-bits/submissions/1365137581/?envType=study-plan-v2&envId=top-interview-150
 [3]: https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/?envType=study-plan-v2&envId=top-interview-150
-[4]: https://leetcode.com/problems/implement-trie-prefix-tree/description/?envType=study-plan-v2&envId=top-interview-150
+[4]: https://leetcode.com/problems/evaluate-division/description/?envType=study-plan-v2&envId=top-interview-150
+[5]: https://leetcode.com/problems/implement-trie-prefix-tree/description/?envType=study-plan-v2&envId=top-interview-150
+[6]: https://leetcode.com/problems/find-median-from-data-stream/description/?envType=study-plan-v2&envId=top-interview-150
 
 ### 8/
 | Difficulty | Problem | Algo/DS |

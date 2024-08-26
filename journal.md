@@ -17,10 +17,10 @@
     - [8/20](#820)
     - [8/22](#822)
     - [8/26](#826)
-    - [8/](#8)
-    - [8/11](#811)
-    - [8/12](#812)
-    - [8/13](#813)
+    - [TODO:](#todo)
+      - [Medium](#medium)
+      - [Hard (3)](#hard-3)
+      - [Misc Hard](#misc-hard)
   - [Template](#template)
 
 ## Principle
@@ -232,7 +232,8 @@
 | Medium     | [Surrounded regions][2] | Graph DFS |
 | Medium     | [Letter combo of phone number][3] | Backtracking |
 | Medium     | [Factorial trialing zeroes][4] | Math [Notes][7] |
-| Hard       | [Build a matrix with conditions][5] |   |
+| Medium     | [Maximum sum circular subarray][5] | Kadane |
+| Hard       | [Basic calculator][8] | Stack |
 | Hard       | [Reverse nodes in k-group][6] | Linked List |
 
 
@@ -240,80 +241,51 @@
 [2]: https://leetcode.com/problems/surrounded-regions/description/?envType=study-plan-v2&envId=top-interview-150
 [3]: https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/?envType=study-plan-v2&envId=top-interview-150
 [4]: https://leetcode.com/problems/factorial-trailing-zeroes/description/?envType=study-plan-v2&envId=top-interview-150
-[5]: https://leetcode.com/problems/build-a-matrix-with-conditions/description/
+[5]: https://leetcode.com/problems/maximum-subarray/description/?envType=study-plan-v2&envId=top-interview-150
 [6]: https://leetcode.com/problems/reverse-nodes-in-k-group/description/?envType=study-plan-v2&envId=top-interview-150
 [7]: https://www.purplemath.com/modules/factzero.htm
 
-### 8/
+### TODO:
+#### Medium
 | Difficulty | Problem | Algo/DS |
 |------------|----------|--------|
 | Medium     | [Course schedule II][2] | Graph |
 | Medium     | [Generate Parentheses][3] | Backtracking |
+| Medium     | [Design Add and Search Words DS][3] | |
 | Medium     | [Sort list][4] | D&C |
-| Hard       | [Robot collisions][5] |   |
-| Hard       | [Merge k sorted lists][6] | D&C |
-| Hard       | [Number of atoms][5] |   |
-| Hard       | [Word search II][6] | Trie |
-| Hard       | [Basic calculator][8] | Stack |
-| Hard       | [Second minimum time to reach destination][9] |   |
-
-
-[2]: https://leetcode.com/problems/course-schedule-ii/description/?envType=study-plan-v2&envId=top-interview-150
-[3]: https://leetcode.com/problems/generate-parentheses/description/?envType=study-plan-v2&envId=top-interview-150
-[4]: https://leetcode.com/problems/sort-list/description/?envType=study-plan-v2&envId=top-interview-150
-[5]: https://leetcode.com/problems/robot-collisions/description/
-[6]: https://leetcode.com/problems/merge-k-sorted-lists/description/?envType=study-plan-v2&envId=top-interview-150
-
-### 8/11
-| Difficulty | Problem | Algo/DS |
-|------------|----------|--------|
-| Medium     | [Unique paths][1] | DP |
-| Medium     | [Construct quad tree][2] | D&C |
+| Medium     | [Construct Quad Tree][4] |  |
 | Medium     | [Maximum subarray][3] | Kadane |
 | Medium     | [Search 2D matrix][4] | BST |
-| Hard       | [Minimum number of k consecutive bit flips][5] |   |
-| Hard       | [Median of two sorted array][6] | Binary search |
-
-[1]: https://leetcode.com/problems/unique-paths-ii/description/?envType=study-plan-v2&envId=top-interview-150
-[2]: https://leetcode.com/problems/construct-quad-tree/description/?envType=study-plan-v2&envId=top-interview-150
-[3]: https://leetcode.com/problems/maximum-subarray/description/?envType=study-plan-v2&envId=top-interview-150
-[4]: https://leetcode.com/problems/search-a-2d-matrix/description/?envType=study-plan-v2&envId=top-interview-150
-[5]: https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/description/
-[6]:https://leetcode.com/problems/median-of-two-sorted-arrays/description/?envType=study-plan-v2&envId=top-interview-150
-
-### 8/12
-| Difficulty | Problem | Algo/DS |
-|------------|----------|--------|
-| Easy       | [Interleaving strings][1] | DP |
-| Medium     | [Maximum sum circular subarray][2] | Kadane |
 | Medium     | [Find peak element][3] | BST |
 | Medium     | [Single number II][4] | Bit |
-| Hard       | [Student attendance record II][5] |   |
-| Hard       | [Find median from data stream][6] | Heap |
+| Medium     | [Search in rotated sorted array][4] | Bit |
+| Medium     | [Find minimum in rotated sorted array][4] | Bit |
+| Medium     | [Bitwise AND of numbers range][2] | Bit |
+| Medium     | [Interleaving strings][1] | DP |
+| Medium     | [Maximum square][1] | DP |
+| Medium     | [Edit Distance][3] | DP |
+| Medium     | [Unique paths II][1] | DP |
+| Medium     | [pow(x, n)][4] | Math (*Revisit to get optimal solution*)|
 
-[1]: https://leetcode.com/problems/interleaving-string/description/?envType=study-plan-v2&envId=top-interview-150
-[2]: https://leetcode.com/problems/maximum-sum-circular-subarray/description/?envType=study-plan-v2&envId=top-interview-150
-[3]: https://leetcode.com/problems/find-peak-element/description/?envType=study-plan-v2&envId=top-interview-150
-[4]: https://leetcode.com/problems/single-number-ii/description/?envType=study-plan-v2&envId=top-interview-150
-[5]: https://leetcode.com/problems/student-attendance-record-ii/description/
-[6]: https://leetcode.com/problems/find-median-from-data-stream/description/?envType=study-plan-v2&envId=top-interview-150
-
-### 8/13
+#### Hard (3)
 | Difficulty | Problem | Algo/DS |
 |------------|----------|--------|
-| Medium     | [Maximum square][1] | DP |
-| Medium     | [Bitwise AND of numbers range][2] | Bit |
-| Medium     | [Edit Distance][3] | DP |
-| Medium     | [pow(x, n)][4] | Math (*Revisit to get optimal solution*)|
-| Hard       | [Word break II][5] |   |
-| Hard       | [][5] |   |
-| Hard       | [][6] |   |
+| Hard       | [Word search II][6] | Trie |
+| Hard       | [Merge k sorted lists][6] | D&C |
+| Hard       | [Median of two sorted array][6] | Binary search |
 
-[1]: https://leetcode.com/problems/maximal-square/description/?envType=study-plan-v2&envId=top-interview-150
-[2]: https://leetcode.com/problems/bitwise-and-of-numbers-range/description/?envType=study-plan-v2&envId=top-interview-150
-[3]: https://leetcode.com/problems/edit-distance/?envType=study-plan-v2&envId=top-interview-150
-[5]: https://www.youtube.com/watch?v=QgLKdluDo08&list=PLQpVsaqBj4RI3jgIzqK7VJHy8Esacg-ow&index=49
-[6]: 
+
+#### Misc Hard
+| Difficulty | Problem | Algo/DS |
+|------------|----------|--------|
+| Hard       | [Robot collisions][5] |   |
+| Hard       | [Number of atoms][5] |   |
+| Hard       | [Second minimum time to reach destination][9] |   |
+| Hard       | [Build a matrix with conditions][5] |   |
+| Hard       | [Minimum number of k consecutive bit flips][5] |   |
+| Hard       | [Student attendance record II][5] |   |
+| Hard       | [Find median from data stream][6] | Heap |
+| Hard       | [Word break II][5] |   |
 
 
 ## Template

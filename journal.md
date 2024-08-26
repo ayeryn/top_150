@@ -16,9 +16,8 @@
     - [8/7](#87)
     - [8/20](#820)
     - [8/22](#822)
+    - [8/26](#826)
     - [8/](#8)
-    - [8/9](#89)
-    - [8/10](#810)
     - [8/11](#811)
     - [8/12](#812)
     - [8/13](#813)
@@ -226,50 +225,38 @@
 [5]: https://leetcode.com/problems/implement-trie-prefix-tree/description/?envType=study-plan-v2&envId=top-interview-150
 [6]: https://leetcode.com/problems/find-median-from-data-stream/description/?envType=study-plan-v2&envId=top-interview-150
 
-### 8/
-| Difficulty | Problem | Algo/DS |
-|------------|----------|--------|
-| Medium     | [Surrounded regions][3] | Graph DFS |
-| Medium     | [Implement trie][4] | Trie |
-| Hard       | [Build a matrix with conditions][5] |   |
-| Hard       | [Reverse nodes in k-group][6] | Linked List |
-| Hard       | [Basic calculator][8] | Stack |
-| Hard       | [Second minimum time to reach destination][9] |   |
-
-[3]: https://leetcode.com/problems/surrounded-regions/description/?envType=study-plan-v2&envId=top-interview-150
-
-[5]: https://leetcode.com/problems/build-a-matrix-with-conditions/description/
-[6]: https://leetcode.com/problems/reverse-nodes-in-k-group/description/?envType=study-plan-v2&envId=top-interview-150
-[7]: https://leetcode.com/problems/reverse-bits/description/?envType=study-plan-v2&envId=top-interview-150
-[8]: https://leetcode.com/problems/basic-calculator/description/?envType=study-plan-v2&envId=top-interview-150
-[9]: https://leetcode.com/problems/second-minimum-time-to-reach-destination/description/
-
-### 8/9
+### 8/26
 | Difficulty | Problem | Algo/DS |
 |------------|----------|--------|
 | Easy       | [Single number][1] | Bit |
+| Medium     | [Surrounded regions][2] | Graph DFS |
+| Medium     | [Letter combo of phone number][3] | Backtracking |
+| Medium     | [Factorial trialing zeroes][4] | Math |
+| Hard       | [Build a matrix with conditions][5] |   |
+| Hard       | [Reverse nodes in k-group][6] | Linked List |
 
-| Medium     | [Letter combo of phone number][4] | Backtracking |
-| Hard       | [Number of atoms][5] |   |
-| Hard       | [Word search II][6] | Trie |
 
 [1]: https://leetcode.com/problems/single-number/description/?envType=study-plan-v2&envId=top-interview-150
-[3]: https://leetcode.com/problems/design-add-and-search-words-data-structure/description/?envType=study-plan-v2&envId=top-interview-150
-[4]: https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/?envType=study-plan-v2&envId=top-interview-150
-[5]: https://leetcode.com/problems/number-of-atoms/description/
-[6]: https://leetcode.com/problems/word-search-ii/description/?envType=study-plan-v2&envId=top-interview-150
+[2]: https://leetcode.com/problems/surrounded-regions/description/?envType=study-plan-v2&envId=top-interview-150
+[3]: https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/?envType=study-plan-v2&envId=top-interview-150
+[4]: https://leetcode.com/problems/factorial-trailing-zeroes/description/?envType=study-plan-v2&envId=top-interview-150
+[5]: https://leetcode.com/problems/build-a-matrix-with-conditions/description/
+[6]: https://leetcode.com/problems/reverse-nodes-in-k-group/description/?envType=study-plan-v2&envId=top-interview-150
 
-### 8/10
+### 8/
 | Difficulty | Problem | Algo/DS |
 |------------|----------|--------|
-| Medium     | [Factorial trialing zeroes][1] | Math |
 | Medium     | [Course schedule II][2] | Graph |
 | Medium     | [Generate Parentheses][3] | Backtracking |
 | Medium     | [Sort list][4] | D&C |
 | Hard       | [Robot collisions][5] |   |
 | Hard       | [Merge k sorted lists][6] | D&C |
+| Hard       | [Number of atoms][5] |   |
+| Hard       | [Word search II][6] | Trie |
+| Hard       | [Basic calculator][8] | Stack |
+| Hard       | [Second minimum time to reach destination][9] |   |
 
-[1]: https://leetcode.com/problems/factorial-trailing-zeroes/description/?envType=study-plan-v2&envId=top-interview-150
+
 [2]: https://leetcode.com/problems/course-schedule-ii/description/?envType=study-plan-v2&envId=top-interview-150
 [3]: https://leetcode.com/problems/generate-parentheses/description/?envType=study-plan-v2&envId=top-interview-150
 [4]: https://leetcode.com/problems/sort-list/description/?envType=study-plan-v2&envId=top-interview-150

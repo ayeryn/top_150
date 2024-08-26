@@ -3,19 +3,26 @@
 
 def factorial(n):
     """
-    TODO: implement in code
-    - 2 * 5 -> 10
-    - 10 -> 10
-
-    For every 1-10 interval, we gain 2 0's bcz
-    - we have one 5
-    - we have one 10
-
-    Extra zeroes:
-    - powers of 5
-    - multiples of powers of 5
-    - multiples of 50
+    1. We get a 0 every time we have a 5 (2 appears more often than 5 and 2*5 = 10)
+    2. We gain extra zeroes when we encounter:
+      - powers of 5
+      - multiples of powers of 5
     """
+
+    # Since n <= 10**4, we need the largest power of 5 <= 10**4 (5**5 = 3126)
+    powers = [5**i for i in range(1, 6)]
+    count = 0
+
+    for p in powers:
+        """
+        p = 5: every multiples of 5 gains one 0
+        p = 25: gain an extra
+        p = 125: gain an extra
+        ...
+        """
+        count += n // p
+
+    return count
 
 
 def factorial_brute(n: int) -> int:

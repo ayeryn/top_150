@@ -231,7 +231,7 @@
 | Easy       | [Single number][1] | Bit |
 | Medium     | [Surrounded regions][2] | Graph DFS |
 | Medium     | [Letter combo of phone number][3] | Backtracking |
-| Medium     | [Factorial trialing zeroes][4] | Math |
+| Medium     | [Factorial trialing zeroes][4] | Math [Notes][7] |
 | Hard       | [Build a matrix with conditions][5] |   |
 | Hard       | [Reverse nodes in k-group][6] | Linked List |
 
@@ -242,6 +242,7 @@
 [4]: https://leetcode.com/problems/factorial-trailing-zeroes/description/?envType=study-plan-v2&envId=top-interview-150
 [5]: https://leetcode.com/problems/build-a-matrix-with-conditions/description/
 [6]: https://leetcode.com/problems/reverse-nodes-in-k-group/description/?envType=study-plan-v2&envId=top-interview-150
+[7]: https://www.purplemath.com/modules/factzero.htm
 
 ### 8/
 | Difficulty | Problem | Algo/DS |

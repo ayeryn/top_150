@@ -2,6 +2,11 @@
 
 
 def factorial(n):
+    # 5**1 through 5**5 as 5**6 > 10**4
+    return n // 5 + n // 25 + n // 125 + n // 625 + n // 3125
+
+
+def factorial(n):
     """
     1. We get a 0 every time we have a 5 (2 appears more often than 5 and 2*5 = 10)
     2. We gain extra zeroes when we encounter:

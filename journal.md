@@ -254,7 +254,6 @@
 | Medium     | [Design Add and Search Words DS][3] | |
 | Medium     | [Sort list][4] | D&C |
 | Medium     | [Construct Quad Tree][4] |  |
-| Medium     | [Maximum subarray][3] | Kadane |
 | Medium     | [Search 2D matrix][4] | BST |
 | Medium     | [Find peak element][3] | BST |
 | Medium     | [Single number II][4] | Bit |

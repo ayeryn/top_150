@@ -18,7 +18,7 @@
     - [8/22](#822)
     - [8/26](#826)
     - [TODO:](#todo)
-      - [Medium](#medium)
+      - [Medium (17)](#medium-17)
       - [Hard (3)](#hard-3)
       - [Misc Hard](#misc-hard)
   - [Template](#template)
@@ -233,8 +233,8 @@
 | Medium     | [Letter combo of phone number][3] | Backtracking |
 | Medium     | [Factorial trialing zeroes][4] | Math [Notes][7] |
 | Medium     | [Maximum sum circular subarray][5] | Kadane |
-| Hard       | [Basic calculator][8] | Stack |
 | Hard       | [Reverse nodes in k-group][6] | Linked List |
+| Hard       | [Merge k sorted lists][8] | D&C |
 
 
 [1]: https://leetcode.com/problems/single-number/description/?envType=study-plan-v2&envId=top-interview-150
@@ -244,9 +244,12 @@
 [5]: https://leetcode.com/problems/maximum-subarray/description/?envType=study-plan-v2&envId=top-interview-150
 [6]: https://leetcode.com/problems/reverse-nodes-in-k-group/description/?envType=study-plan-v2&envId=top-interview-150
 [7]: https://www.purplemath.com/modules/factzero.htm
+[8]: https://leetcode.com/problems/merge-k-sorted-lists/?envType=study-plan-v2&envId=top-interview-150
+
+https://leetcode.com/problems/basic-calculator/description/?envType=study-plan-v2&envId=top-interview-150
 
 ### TODO:
-#### Medium
+#### Medium (17)
 | Difficulty | Problem | Algo/DS |
 |------------|----------|--------|
 | Medium     | [Course schedule II][2] | Graph |
@@ -270,7 +273,7 @@
 | Difficulty | Problem | Algo/DS |
 |------------|----------|--------|
 | Hard       | [Word search II][6] | Trie |
-| Hard       | [Merge k sorted lists][6] | D&C |
+| Hard       | [Basic calculator][8] | Stack |
 | Hard       | [Median of two sorted array][6] | Binary search |
 
 

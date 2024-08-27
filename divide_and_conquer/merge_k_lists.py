@@ -1,11 +1,43 @@
 # 23
 
 from typing import Optional, List
+from heapq import *
 from linked_list.ListNode import ListNode
 
 
-def merge_k_lists(lists: List[Optional[ListNode]]) -> Optional[ListNode]:
+def merge_k_lists_heap(lists):
+    # This does not use the sorted linked list property
+    # Also uses extra memory because it's creating new nodes
+    # Kind of cheating with heap's sorting property
+    if len(lists) == 0:
+        return None
+
+    heap = []
+    for l in lists:
+        # Push all values onto heap
+        curr = l
+        while curr:
+            heappush(heap, curr.val)
+            curr = curr.next
+
+    head = None
+    tail = None
+    while heap:
+        top = heappop(heap)
+
+        if not head:
+            head = ListNode(top)
+            tail = head
+        else:
+            tail.next = ListNode(top)
+            tail = tail.next
+
+    return head
+
+
+def merge_k_lists_brute(lists: List[Optional[ListNode]]) -> Optional[ListNode]:
     # Brute-force: merge 2 lists together at a time
+    # This is slow because we are checking almost all elements more than onces
     if len(lists) == 0:
         return None
 
